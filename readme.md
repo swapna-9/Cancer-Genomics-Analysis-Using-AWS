@@ -66,3 +66,5 @@ The project utilizes The Cancer Genome Atlas (TCGA) dataset, a collaborative ini
 
 Contains matched tumor and normal tissue data from 11,000 patients.
 Characterizes 33 cancer types and subtypes, including 10 rare cancers.
+
+![Flowchart](https://github.com/swapna-9/Cancer-Genomics-Analysis-Using-AWS/blob/c83b47e65fd71909178e1b0805315bc8413c39aa/images/Flowchart.png)
