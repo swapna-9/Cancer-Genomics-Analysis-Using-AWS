@@ -23,14 +23,21 @@ Glue ETL: Transforms raw genomic data for analysis and visualization.
 Directly connects to the processed data for creating dashboards and visualizations.
 #### Workflow
 Step 1: Raw Data Storage
+
 Genomic data is stored in the S3 bucket.
 S3 triggers the Lambda function upon detecting new data uploads.
+
 Step 2: Trigger Crawler
+
 AWS Lambda starts the Glue Crawler to extract metadata and populate the Glue Data Catalog.
+
 Step 3: Data Transformation
+
 AWS Glue ETL processes and transforms raw data into structured formats.
 The transformed data is stored back in S3 for querying.
+
 Step 4: Visualization
+
 Amazon QuickSight visualizes the processed data for bioinformatics insights.
 
 ### Requirements
